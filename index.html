@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<title>Js-Madlib</title>
+<h1>Js-Madlib</h1>
+<body> 
+    <div> 
+        <label for="friendName"> Name of friend:</label>
+        <input type="text" id="friendName" name = "friendName">
+    </div>
+    <div>
+        <label for="stateName"> (US) State:</label>
+        <input type="text" id="stateName" name = "stateName">
+    </div>
+    <div>
+        <label for="typeOfBird"> Type of bird:</label>
+        <input type="text" id="typeOfBird" name = "typeOfBird">
+    </div>
+    <div>
+        <label for="adj"> Adjective:</label>
+        <input type="text" id="adj" name = "adj">
+    </div>
+    <div>
+        <label for="num"> Number:</label>
+        <input type="text" id="num" name = "num">
+    </div>
+    <!-- friendName, stateName, typeOfBird, adj, num -->
+
+    <button onclick = "generateMadLibs()"> Generate Mad Libs </button>
+    
+    <p id="mad-libs">
+        
+    </p>
+    <script src = "mad_lib.js"></script>
+</body>
